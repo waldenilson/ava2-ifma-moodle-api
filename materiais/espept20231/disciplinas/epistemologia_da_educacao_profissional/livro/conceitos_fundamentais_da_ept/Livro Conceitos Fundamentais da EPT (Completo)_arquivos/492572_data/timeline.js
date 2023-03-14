@@ -1,0 +1,1 @@
+TimelineJS=(function($){function Timeline(options,major,minor){var libraryPath='TimelineJS-'+major+'.'+minor;window.embed_path=H5P.getLibraryPath(libraryPath)+'/';createStoryJS(options);};return Timeline;})(H5P.jQuery);
