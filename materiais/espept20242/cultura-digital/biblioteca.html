@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Núcleo Comum</title>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" class="holderjs">
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer=""></script>
+
+
+    <script>
+      paginaAtual = 1;
+    </script>
+
+    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+<body id="body">
+
+    <header id="header" class="nav-down">
+  <div class="header-1">
+    <nav class="navbar">
+      <ul class="options navbar-nav mr-auto text-left">
+        <li class="nav-item">
+          <a class="nav-link" id="acessilibityMain" href="#body">Ir para conteúdo 1</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="" href="#header">Ir para o menu 2</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="acessilibityScrollTop" href="#">Ir para o topo 3</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="acessilibityFooter" href="#footer">Ir para o rodapé 4</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav menu-acessibilidade">
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="./acessibilidade.html">Acessibilidade</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="header-2">
+    <nav class="navbar">
+      <a class="navbar-brand" href="./index.html">
+        <img alt="Logotipo" height="35" src="imagens/ept.svg">
+
+        <div class="navbar-brand-mg">
+          <p class="">
+            <strong>Formação de Profissionais</strong>
+          </p>
+
+          <p>
+            <strong>para a EPT</strong>
+          </p>
+        </div>
+      </a>
+
+      <div class="navbar-content">
+        <div class="navbar-content-row">
+          <div class="navbar-title thematic-title">
+              
+          </div>
+        </div>
+
+        <div class="navbar-content-row">
+          <div class="navbar-chapter page-title">
+          Núcleo Comum - Cultura digital e Educação Profissional e Tecnológica
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+  <!-- Sumário - telas maiores-->
+<div id="sidebar-desktop">
+  <!-- Botão sumário fechado -->
+  <button class="sidebar-open">
+    Sumário
+    <span class="iconify" data-icon="mdi-forwardburger" data-rotate="90deg"></span>
+  </button>
+
+  <nav class="sidebar sidebar-close" role="navigation">
+    <!-- Botão sumário aberto -->
+    <div class="sidebar-header">
+      <div class="sidebar-title">
+        Sumário
+      </div>
+      <button class="sidebar-close-btn">
+        <span class="iconify" data-icon="mdi-backburger"></span>
+      </button>
+    </div>
+
+    <div class="sidebar-body">
+      <ul class="sidebar-nav" id="sidebar-nav">
+        <!-- Itens do menu serão inseridos aqui -->
+      </ul>
+    </div>
+
+    <div class="sidebar-header-tow">
+      <div class="sidebar-title">
+      </div>
+    </div>
+    <div class="sidebar-body-tow">
+      <!--<ul class="sidebar-nav" id="sidebar-nav">
+         Itens do menu serão inseridos aqui 
+      </ul>-->
+    </div>
+  </nav>
+</div>    
+
+<!-- Sumário - telas pequenas -->
+<div id="sidebar-mobile" class="d-md-none">
+  <nav class="sidebar sidebar-close" role="navigation">
+    <div class="sidebar-header">
+      <div class="label">
+        Sumário
+      </div>
+    </div>
+
+    <div class="sidebar-body">
+      <ul class="sidebar-nav" id="sidebar-nav">
+        <!-- Itens do menu serão inseridos aqui -->
+      </ul>
+    </div>
+
+    <div class="sidebar-header-tow">
+      <div class="sidebar-title">
+      </div>
+    </div>
+    
+    <div class="sidebar-body-tow">
+      <!--<ul class="sidebar-nav" id="sidebar-nav">
+         Itens do menu serão inseridos aqui
+      </ul> -->
+    </div>
+  </nav>
+</div>
+  <div id="recursos-azul" class="chapter-info">
+<div id="introduction">
+<div id="main" class="main">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 p-0">
+<div class="jumbotron" style="height: 300px;"><!-- Imagem de fundo --> <img src="imagens/banner-biblioteca.png" alt="Logotipo" height="35" /> <!-- Título do módulo -->
+<div class="jumbotron-content">
+<h1 class="jumbotron-title">Biblioteca de recursos</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-8 pa-0 offset-md-2 content-page">
+
+<div class="row">
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Desenho de e-atividades para ambientes digitais</span></div>
+<div>
+<h5 class="text"><strong>Maria de F&aacute;tima goul&atilde;o</strong> | Universidade Aberta - Portugal | 2023<br /><br />#Elearning<br />#E-atividades<br />#Pedagogia do online<br />#Ferramentas digitais<br />#Estilos de aprendizagem<br />#Estrutura&ccedil;&atilde;o da atividade did&aacute;tica<br />#Modelo pedag&oacute;gico<br /><br /></h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://doi.org/10.34627/uab.ead.20" target="_blank"> Acessar&nbsp;</a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Tecnologias digitais da informa&ccedil;&atilde;o e da comunica&ccedil;&atilde;o (TDIC) na educa&ccedil;&atilde;o</span></div>
+<div>
+<h5 class="text"><strong>Alexandre Martins dos Anjos;&nbsp;</strong><br /><strong>Glaucia Eunice Gon&ccedil;alves da Silva<br /></strong>Secretaria de Tecnologia Educacional - UFMT | 2018<br /><br />#Sociedade da Informa&ccedil;&atilde;o, cultura digital e TICs na educa&ccedil;&atilde;o<br />#TDIC e a organiza&ccedil;&atilde;o do trabalho pedag&oacute;gico escolar<br /><br /></h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a rel="noopener" href="https://educapes.capes.gov.br/handle/capes/429662" target="_blank">Acessar</a>&nbsp;<a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://educapes.capes.gov.br/bitstream/capes/433309/2/TDIC%20na%20Educa%C3%A7%C3%A3o%20_%20compilado_19_06-atualizado.pdf" target="_blank"> Download </a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Multiletramentos com tecnologias digitais da informa&ccedil;&atilde;o e comunica&ccedil;&atilde;o</span></div>
+<div>
+<h5 class="text"><strong>Daniel Bramo Nascimento de Carvalho; Ronaldo Nunes Linhares</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Revista Teias | 2023</h5>
+<h5 class="text"><br />#P<span style="font-weight: 400;">edagogia dos multiletramentos </span><br />#Novas pr&aacute;ticas no espa&ccedil;o escolar que se relacionem com as nossas compet&ecirc;ncias em ler o mundo a partir das m&iacute;dias</h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://www.e-publicacoes.uerj.br/revistateias/article/view/75866" target="_blank"> Acessar </a></button> <button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://www.e-publicacoes.uerj.br/revistateias/article/view/75866/47369" target="_blank"> Download </a></button></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Dossi&ecirc; Cultura Digital e Educa&ccedil;&atilde;o</span></div>
+<div>
+<h5 class="text"><strong>Gizele de Souza; </strong><strong>Catarina Moro&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </strong>Educar em Revista - Curitiba | 2020<br /><br />#Comunica&ccedil;&atilde;o e Hierarquia Social&nbsp;<br />#A virtualiza&ccedil;&atilde;o do Ensino Superior<br />#Pol&iacute;ticas p&uacute;blicas<br />#Educa&ccedil;&atilde;o H&iacute;brida&nbsp;<br />#Inova&ccedil;&otilde;es pedag&oacute;gicas contempor&acirc;neas para uma educa&ccedil;&atilde;o emancipadora&nbsp;<br />#Forma&ccedil;&atilde;o de professores na cultura digital gamifica&ccedil;&atilde;o&nbsp;<br />#Integra&ccedil;&atilde;o de tecnologias digitais ao curr&iacute;culo&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; #Narrativas dos professores nas redes&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; #Ciberfeminismo&nbsp;<br />#Multiletramentos cr&iacute;ticos na cibercultura&nbsp;<br />#Arquiteturas digitais de aprendizagem&nbsp;</h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://revistas.ufpr.br/educar/issue/view/2866/showToc" target="_blank"> Acessar&nbsp;</a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Cultura digital e educa&ccedil;&atilde;o profissional e tecnol&oacute;gica: implica&ccedil;&otilde;es para pr&aacute;tica pedag&oacute;gica</span></div>
+<div>
+<h5 class="text"><strong>Sara Ferreira Alves Castro<br /></strong>Centro de Educa&ccedil;&atilde;o e Ci&ecirc;ncias Humanas - UFSCAr | 2023<br /><br />#Esta pesquisa analisou poss&iacute;veis implica&ccedil;&otilde;es da cultura digital e do ensino na pandemia sobre a pr&aacute;tica pedag&oacute;gica dos professores da Educa&ccedil;&atilde;o Profissional e Tecnol&oacute;gica<br /><br /></h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://repositorio.ufscar.br/handle/ufscar/18748" target="_blank"> Acessar </a></button> <button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://repositorio.ufscar.br/bitstream/handle/ufscar/18748/Dissertacao_Sara_Castro.pdf?sequence=1&amp;isAllowed=y" target="_blank"> Download </a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><span class="titulo button"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" />Saberes em Movimento</span></div>
+<div>
+<h5 class="text"><strong>Maria Carolina Machado Magnus; Inara Fonseca;<br />Elizandro Maur&iacute;cio Brick<br /></strong>UFSC - Florian&oacute;polis | 2019</h5>
+<h5 class="text">#<span style="font-weight: 400;">O livro nos instiga a repensar a import&acirc;ncia de se colocar em debate o papel da Universidade, principalmente no que se refere a forma&ccedil;&atilde;o de professoras e professores, no desempenho em dar visibilidade a outros saberes que n&atilde;o somente aqueles denominados cient&iacute;ficos/acad&ecirc;micos.&nbsp;</span></h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://prosa.paginas.ufsc.br/files/2021/06/Livro-Saberes-em-Movimento.pdf" target="_blank">Download </a></button></div>
+</div>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<div class="row">
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Da cultura das m&iacute;dias &agrave; cibercultura: o advento do p&oacute;s-humano</span></div>
+<div>
+<h5 class="text"><strong>L&uacute;cia Santaella<br /></strong>Revista FAMECOS&nbsp; - Porto Alegre | 2003<br /><br />#Este artigo trata da quest&atilde;o do desenvolvimento das tecnologias da informa&ccedil;&atilde;o e da comunica&ccedil;&atilde;o e sua implica&ccedil;&atilde;o em todas as esferas da sociedade.</h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://revistaseletronicas.pucrs.br/revistafamecos/article/view/3229" target="_blank"> Acessar&nbsp;</a></button> <button class="btn btn-link" data-dismiss="modal" type="button"><br /><a href="https://revistaseletronicas.pucrs.br/revistafamecos/article/view/3229/2493">Download</a>&nbsp; &nbsp;</button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Trabalho e educa&ccedil;&atilde;o: fundamentos ontol&oacute;gicos e hist&oacute;ricos</span></div>
+<div>
+<h5 class="text"><strong>Demerval Saviani</strong><strong> <br /></strong>Revista Brasileira de Educa&ccedil;&atilde;o | 2007<br /><br />#Rela&ccedil;&atilde;o trabalho-educa&ccedil;&atilde;o ,&nbsp;<br />#Fundamentos hist&oacute;rico-filos&oacute;ficos da educa&ccedil;&atilde;o #Educa&ccedil;&atilde;o polit&eacute;cnica<br /><br /></h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a rel="noopener" href="https://www.scielo.br/j/rbedu/a/wBnPGNkvstzMTLYkmXdrkWP" target="_blank">Acessar</a><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://www.scielo.br/j/rbedu/a/wBnPGNkvstzMTLYkmXdrkWP/?format=pdf&amp;lang=pt" target="_blank">Download </a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Alfabetiza&ccedil;&atilde;o Digital<br /><br /></span><strong style="color: #454540; font-size: 0.8em;">Isabel Cristina Alves da Silva Frade</strong><span style="color: #454540; font-size: 0.8em;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Gloss&aacute;rio Ceale: termos de alfabetiza&ccedil;&atilde;o, leitura e escrita para educadores - Belo Horizonte: UFMG/Faculdade de Educa&ccedil;&atilde;o | 2014</span></div>
+<div>
+<h5 class="text"><br />#P<span style="font-weight: 400;">edagogia dos multiletramentos </span><br />#Novas pr&aacute;ticas no espa&ccedil;o escolar que se relacionem com as nossas compet&ecirc;ncias em ler o mundo a partir das m&iacute;dias</h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://www.ceale.fae.ufmg.br/glossarioceale/verbetes/alfabetizacao-digital" target="_blank"> Acessar&nbsp;</a></button> <button class="btn btn-link" data-dismiss="modal" type="button"><br /></button></div>
+</div>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<div class="row">
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Novas pr&aacute;ticas de leitura e escrita: letramento na cibercultura</span></div>
+<div>
+<h5 class="text"><strong>Magda Soares<br /></strong>Educa&ccedil;&atilde;o e Sociedade | 2002<br /><br /></h5>
+<h5 class="text">#<span style="font-weight: 400;">Letramento</span>&nbsp;<br />#<span style="font-weight: 400;">Cultura do papel<br /></span>#Cibercultura<br />#Pr&aacute;ticas de leitura&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; #Pr&aacute;ticas de escrita</h5>
+</div>
+<p class="d-flex botoes content paragrafo"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://www.scielo.br/j/es/a/zG4cBvLkSZfcZnXfZGLzsXb/abstract/?lang=pt" target="_blank"> Acessar&nbsp;</a></button> <button class="btn btn-link" data-dismiss="modal" type="button"><br /><a rel="noopener" href="https://www.scielo.br/j/es/a/zG4cBvLkSZfcZnXfZGLzsXb/?format=pdf&amp;lang=pt" target="_blank">Download</a>&nbsp; &nbsp;</button></p>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Inclus&atilde;o digital: pol&ecirc;mica contempor&acirc;nea<br /></span><strong style="color: #454540; font-size: 0.8em;">Maria Helena Silveira Bonilla; </strong><strong style="color: #454540; font-size: 0.8em;">Nelson De Luca Pretto<br /></strong><span style="color: #454540; font-size: 0.8em;">UFBA, Salvador&nbsp; | 2011<br /><br /></span><span style="color: #454540; font-size: 0.8em;">#Inclus&atilde;o digital<br /></span><span style="color: #454540; font-size: 0.8em;">#Internet na educa&ccedil;&atilde;o<br /></span><span style="color: #454540; font-size: 0.8em;">#Tecnologia da informa&ccedil;&atilde;o<br /></span><span style="color: #454540; font-size: 0.8em;">#Inclus&atilde;o social<br /></span><span style="color: #454540; font-size: 0.8em;">#Pol&iacute;ticas p&uacute;blicas</span></div>
+<div></div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a rel="noopener" href="https://repositorio.ufba.br/handle/ri/4859" target="_blank">Acessar</a><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://repositorio.ufba.br/bitstream/ri/4859/1/repositorio-Inclusao%20digital-polemica-final.pdf" target="_blank">Download </a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Inclus&atilde;o Digital e Educa&ccedil;&atilde;o On-line em Prol da Cidadania: pontos para reflex&atilde;o &nbsp; </span></div>
+<div class="modulo"><strong style="color: #454540; font-size: 0.8em;">Marcelo Cabeda<br /></strong><span style="color: #454540; font-size: 0.8em;">Revista Brasileira de Aprendizagem Aberta e a Dist&acirc;ncia | 2004</span></div>
+<div>
+<h5 class="text">#O objetivo deste artigo &eacute; estimular o interesse do leitor em avaliar as possibilidades da Educa&ccedil;&atilde;o a Dist&acirc;ncia, EAD, em seu formato de did&aacute;tica on-line, EOL colaborativa, como um m&eacute;todo poss&iacute;vel de aux&iacute;lio &agrave; produ&ccedil;&atilde;o de conhecimentos, com a finalidade de desenvolver a cidadania.&nbsp;</h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://abed.emnuvens.com.br/RBAAD/article/view/161" target="_blank"> Acessar&nbsp;</a></button> <button class="btn btn-link" data-dismiss="modal" type="button">&nbsp;<a rel="noopener" href="https://abed.emnuvens.com.br/RBAAD/article/view/161/43" target="_blank">Download</a></button></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-8 pa-0 offset-md-2 content-page">
+<div class="row">
+<div class="d-flex botoes">
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">The difference between emergency remote teaching and online learning</span></div>
+<div>
+<h5 class="text"><strong>Charles Hodges; Stephanie Moore; Barb Lockee ;Torrey Trust; Aaron Bond<br /></strong>Educase Review| 2020&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h5>
+<h5 class="text">#<span style="font-weight: 400;">Well-planned online learning experiences are meaningfully different from courses offered online in response to a crisis or disaster. Colleges and universities working to maintain instruction during the COVID-19 pandemic should understand those differences when evaluating this emergency remote teaching.</span></h5>
+</div>
+<p class="d-flex botoes content paragrafo"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://er.educause.edu/articles/2020/3/the-difference-between-emergency-remote-teaching-and-online-learning" target="_blank"> Acessar&nbsp;</a></button></p>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Educa&ccedil;&atilde;o a dist&acirc;ncia e ensino remoto: oposi&ccedil;&atilde;o pelo v&eacute;rtice&nbsp; &nbsp; &nbsp;</span></div>
+<div class="modulo"><strong style="color: #454540; font-size: 0.8em;">Braian Veloso; Daniel Mill; </strong><span style="color: #454540; font-size: 0.8em;">Revista Portuguesa de Educa&ccedil;&atilde;o&nbsp; | 2024&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span style="color: #454540; font-size: 0.8em;">#Educa&ccedil;&atilde;o a dist&acirc;ncia<br />#Ensino remoto<br />#Pandemia</span></div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a rel="noopener" href="https://revistas.rcaap.pt/rpe/article/view/29231" target="_blank">Acessar</a><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://revistas.rcaap.pt/rpe/article/view/29231/24825" target="_blank">Download</a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Ensino m&eacute;dio e educa&ccedil;&atilde;o profissional no Brasil: dualidade e fragmenta&ccedil;&atilde;o &nbsp;&nbsp;</span></div>
+<div class="modulo"><strong style="color: #454540; font-size: 0.8em;">Maria Ciavatta;<br />Marise Ramos <br /></strong><span style="color: #454540; font-size: 0.8em;">Revista Retratos da Escola, Bras&iacute;lia&nbsp; | 2011&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></div>
+<div>
+<h5 class="text">#Dualidade e fragmenta&ccedil;&atilde;o no ensino m&eacute;dio e na educa&ccedil;&atilde;o profissional devem ser compreendidas n&atilde;o apenas na sua express&atilde;o atual, mas tamb&eacute;m nas suas ra&shy;&iacute;zes sociais &ndash; a estrutura secular da sociedade de classes ede implanta&ccedil;&atilde;o do capitalismo.</h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a rel="noopener" href="https://retratosdaescola.emnuvens.com.br/rde/article/view/45/42" target="_blank">Download </a></button></div>
+</div>
+</div>
+</div>
+<div class="d-flex botoes"><span style="font-size: 2.1em;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div>
+</div>
+</div>
+<div class="row">
+<div class="d-flex botoes">
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><strong>Elementos para uma reflex&atilde;o sobre a intelig&ecirc;ncia artificial na EPT</strong></div>
+<div>
+<h5 class="text"><strong>Raquel Folmer C&ocirc;rrea; Vicente Ciotta lima;<br /></strong>Semin&aacute;rio da Rede Ga&uacute;cha de Estudos e Pesquisa Sobre Educa&ccedil;&atilde;o Profissional e Tecnol&oacute;gica | 2023&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h5>
+<h5 class="text">Nesse texto os autores discutem a import&acirc;ncia da Intelig&ecirc;ncia Artificial na Educa&ccedil;&atilde;o Profissional e Tecnol&oacute;gica (EPT), destacando seu impacto nas pr&aacute;ticas pedag&oacute;gicas e a necessidade de reflex&otilde;es cr&iacute;ticas sobre sua ado&ccedil;&atilde;o. O artigo convida a uma an&aacute;lise cuidadosa dos desafios e oportunidades que a IA traz para a forma&ccedil;&atilde;o de profissionais no contexto da EPT.</h5>
+</div>
+<p class="d-flex botoes content paragrafo"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://eventos.ifrs.edu.br/index.php/seminariosept/iv-redeeptrs/paper/view/14052" target="_blank"> Acessar&nbsp;</a></button></p>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Intelig&ecirc;ncia artificial: contributos para a pr&aacute;tica docente na educa&ccedil;&atilde;o profissional &nbsp; &nbsp;&nbsp;</span></div>
+<div class="modulo"><strong style="color: #454540; font-size: 0.8em;">Maria Ad&eacute;lia Costa; Giuliano Richard Ribeiro; Eduardo Andr&eacute; Mossini; <br /></strong><span style="color: #454540; font-size: 0.8em;">Revista Conex&otilde;es&nbsp; | 2023&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br /><br /></span><span style="color: #454540; font-size: 0.8em;">O texto explora como a Intelig&ecirc;ncia Artificial pode contribuir para a pr&aacute;tica docente na Educa&ccedil;&atilde;o Profissional, destacando seu potencial para melhorar o ensino e a aprendizagem. O artigo aborda as possibilidades e desafios da integra&ccedil;&atilde;o da IA nas pr&aacute;ticas pedag&oacute;gicas, enfatizando sua relev&acirc;ncia no contexto educacional atual.<br /><br /></span></div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a rel="noopener" href="https://conexoes.ifce.edu.br/index.php/conexoes/article/view/3089/1649" target="_blank">Acessar</a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Reflex&otilde;es sobre a aplica&ccedil;&atilde;o da intelig&ecirc;ncia artificial na educa&ccedil;&atilde;o e seus impactos para a atua&ccedil;&atilde;o docente&nbsp;</span></div>
+<div class="modulo"><strong style="color: #454540; font-size: 0.8em;">Samuel de Oliveira Durso<br /></strong><span style="color: #454540; font-size: 0.8em;">Revista Retratos da Escola, Bras&iacute;lia&nbsp; | 2011&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></div>
+<div>
+<h5 class="text">#Dualidade e fragmenta&ccedil;&atilde;o no ensino m&eacute;dio e na educa&ccedil;&atilde;o profissional devem ser compreendidas n&atilde;o apenas na sua express&atilde;o atual, mas tamb&eacute;m nas suas ra&shy;&iacute;zes sociais &ndash; a estrutura secular da sociedade de classes ede implanta&ccedil;&atilde;o do capitalismo.</h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a rel="noopener" href="https://www.scielo.br/j/edur/a/3mh8D6366By9w9THfF8bThQ/?lang=pt" target="_blank">Acessar</a></button></div>
+</div>
+</div>
+</div>
+<div class="d-flex botoes"><span style="font-size: 2.1em;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="imagens/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /><br />Analisando as potencialidades da intelig&ecirc;ncia artificial na cria&ccedil;&atilde;o de materiais did&aacute;ticos para o ensino de f&iacute;sica<br /></span><strong style="color: #454540; font-size: 0.8em;"><br />Manoel Salvino de Lima Neto</strong><span style="color: #454540; font-size: 0.8em;"> | Revista do Professor de F&iacute;sica | 2024<br /><br />Neste texto o autor analisa as potencialidades da Intelig&ecirc;ncia Artificial na cria&ccedil;&atilde;o de materiais did&aacute;ticos para o ensino de F&iacute;sica. O artigo destaca como a IA pode facilitar o desenvolvimento de recursos pedag&oacute;gicos personalizados e interativos, melhorando a experi&ecirc;ncia de ensino e aprendizagem nessa &aacute;rea.</span></div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"> <a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://periodicos.unb.br/index.php/rpf/article/view/52289/40485" target="_blank"> Acessar&nbsp;</a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="imagens/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /><br />Os impactos da intelig&ecirc;ncia artificial na sala de aula<br /><br /></span><strong style="color: #454540; font-size: 0.8em;">Rafael Durant Pacheco, Marcos Aur&eacute;lio Teixeira Ribeiro, Ana Paula da Silva, Liliana Marques Andrade Furlan, Victor Brand&atilde;o Ataliba, Jaqueline Costa Sherrer, Lauzidete de Oliveira Leite, Patr&iacute;cia Dias da Costa Marinho, Val&eacute;ria Aparecida Pereira da Silva, Luziane de Lucca Garcia Brand&atilde;o.<br /></strong><span style="color: #454540; font-size: 0.8em;">Revista Foco | 2024<br /><br /></span><span style="color: #454540; font-size: 0.8em;">Os autores examinam os impactos da Intelig&ecirc;ncia Artificial na educa&ccedil;&atilde;o, destacando como ela modifica pr&aacute;ticas pedag&oacute;gicas, personaliza o aprendizado e apresenta desafios para o ensino. O artigo discute os efeitos positivos e negativos da ado&ccedil;&atilde;o da IA em sala de aula.</span></div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"> <a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://ojs.focopublicacoes.com.br/foco/article/view/5429" target="_blank"> Acessar&nbsp;</a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="imagens/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" />Produ&ccedil;&atilde;o acad&ecirc;mico-cient&iacute;fica sobre intelig&ecirc;ncia artificial no campo da educa&ccedil;&atilde;o<br /><br /></span><strong style="color: #454540; font-size: 0.8em;">Eric Ferdinando Kanai Passone, Paula Vilela Miekusz de Vasconcelos.<br /></strong><span style="color: #454540; font-size: 0.8em;">ETD &ndash; Educa&ccedil;&atilde;o Tem&aacute;tica Digital | 2024<br /><br /></span><span style="color: #454540; font-size: 0.8em;">Os autores analisam a produ&ccedil;&atilde;o acad&ecirc;mico-cient&iacute;fica sobre Intelig&ecirc;ncia Artificial no campo da educa&ccedil;&atilde;o. O artigo explora tend&ecirc;ncias, desafios e o impacto da IA no desenvolvimento de pr&aacute;ticas educativas, destacando seu papel crescente no ambiente acad&ecirc;mico.</span><br /><br /></div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"> <a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://periodicos.sbu.unicamp.br/ojs/index.php/etd/article/view/8671477" target="_blank"> Acessar</a></button></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="imagens/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /><br />Pensar a intelig&ecirc;ncia artificial<br /></span><strong style="color: #454540; font-size: 0.8em;"><br />L&uacute;cia Santaella<br /></strong><span style="color: #454540; font-size: 0.8em;">PPGCOM/UFMG | 2023<br /><br />Neste texto Santaella reflete sobre a Intelig&ecirc;ncia Artificial no contexto da cultura de plataformas digitais, analisando os desafios que ela imp&otilde;e &agrave; criatividade humana. A obra discute como a IA transforma a produ&ccedil;&atilde;o cultural e as din&acirc;micas sociais, destacando as implica&ccedil;&otilde;es tecnol&oacute;gicas para a criatividade e inova&ccedil;&atilde;o.</span></div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"> <a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://seloppgcomufmg.com.br/publicacao/pensar-a-inteligencia-artificial-cultura-de-plataforma-e-desafios-a-criatividade/" target="_blank"> Acessar&nbsp;</a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="imagens/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /><br />Reflex&otilde;es sobre intelig&ecirc;ncia artificial e os sentidos da pr&aacute;tica educativa na contemporaneidade<br /><br /></span><strong style="color: #454540; font-size: 0.8em;">Marcia Amaral Corr&ecirc;a Ughini Villaroel<br /></strong><span style="color: #454540; font-size: 0.8em;">Revista de Ci&ecirc;ncias Humanas | 2023<br /><br /></span><span style="color: #454540; font-size: 0.8em;">Os autores examinam os impactos da Intelig&ecirc;ncia Artificial na educa&ccedil;&atilde;o, destacando como ela modifica pr&aacute;ticas pedag&oacute;gicas, personaliza o aprendizado e apresenta desafios para o ensino. O artigo discute os efeitos positivos e negativos da ado&ccedil;&atilde;o da IA em sala de aula.</span></div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"> <a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://revistas.fw.uri.br/index.php/revistadech/article/view/4591" target="_blank"> Acessar&nbsp;</a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="imagens/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" />I Simp&oacute;sio de Intelig&ecirc;ncia Artificial Aplicada na Educa&ccedil;&atilde;o - Abertura e palestras<br /><br /></span><span style="color: #454540; font-size: 0.8em;">Faculdade de Educa&ccedil;&atilde;o da Unicamp | 2023<br /><br /></span><span style="color: #454540; font-size: 0.8em;">Os autores analisam a produ&ccedil;&atilde;o acad&ecirc;mico-cient&iacute;fica sobre Intelig&ecirc;ncia Artificial no campo da educa&ccedil;&atilde;o. O artigo explora tend&ecirc;ncias, desafios e o impacto da IA no desenvolvimento de pr&aacute;ticas educativas, destacando seu papel crescente no ambiente acad&ecirc;mico.</span><br /><br /></div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"> <a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://www.youtube.com/live/eWWvOKX3LTE" target="_blank"> Acessar</a></button></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Digital natives, digital immigrants</span></div>
+<div>
+<h5 class="text"><strong>Marc Prensky </strong>|&nbsp; <strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </strong>On the Horizon | 2001<br /><br />#<span style="font-weight: 400;">Part one of this paper highlights how students today think and process information fundamentally differently from their predecessors, as a result of being surrounded by new technology. The author compares these &ldquo;digital natives&rdquo; with the older generation who are learning and adopting new technology naming them &ldquo;digital immigrants&rdquo;.</span></h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://www.marcprensky.com/writing/Prensky%20-%20Digital%20Natives,%20Digital%20Immigrants%20-%20Part1.pdf" target="_blank">Download</a></button></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+<div id="2" class="card-modulo">
+<div class="duracao">
+<div class="modulo"><img src="medias/icone_card_biblioteca.png" alt="" width="100%" /></div>
+<div class="modulo"><span class="titulo button">Gest&atilde;o inovadora no contexto da cultura digital: reflex&otilde;es a partir de m&uacute;ltiplos olhares</span></div>
+<div>
+<h5 class="text"><strong>Josiane Carolina Soares;</strong><strong> Ramos Procasko<br />Lucia Maria Martins Giraffa<br /><br /></strong>Acta Scientiaru: Education| 2022<br /><br />#A &nbsp;pesquisa &nbsp;desenvolvida investigou os &nbsp; desafios, &nbsp; as &nbsp; oportunidades &nbsp; e as implica&ccedil;&otilde;es relacionadas &agrave; pr&aacute;tica gestora na contemporaneidade, diante da emerg&ecirc;ncia da cultura digital.<br /><br /></h5>
+</div>
+<div class="d-flex botoes"><button class="btn btn-link" data-dismiss="modal" type="button"></button> <button class="btn btn-link" data-dismiss="modal" type="button"><a class="btn a-vermelho button btn-lg btn-nav-prev" rel="noopener" href="https://periodicos.uem.br/ojs/index.php/ActaSciEduc/article/view/54333/751375154319" target="_blank"> Download</a></button></div>
+</div>
+</div>
+</div>
+</div>
+<div class="nav-pagination">
+<div class="nav-buttons"><a class="btn button btn-lg btn-secondary btn-nav-prev" href="sobre-autor.html">Voltar</a></div>
+<p class="nav-marker">P&aacute;gina 25 de 25</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+  <footer id="footer">
+  <div class="container p-0">
+    <div class="footer-row row m-0 text-center">
+      <div class="footer-img text-left">
+        <a alt="Acesso à informação" href="http://www.acessoainformacao.gov.br/" target="_blank">
+          <img src="imagens/acesso-a-informacao.png">
+        </a>
+      </div>
+    
+      <div class="footer-links">
+        <ul class="list-inline list-links">
+          <li class="list-inline-item">2024| </li>
+          <li class="list-inline-item">SETEC-MEC | </li>
+          <li class="list-inline-item">LANTEC/PROSA-UFSC.</li>
+          <li class="list-inline-item">Todos os direitos reservados.</li>
+        </ul>
+      </div>
+
+      <div class="footer-img text-right">
+        <a alt="Governo Federal" href="http://www.brasil.gov.br/" target="_blank">
+          <img src="imagens/governo-federal-brasil.png">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+  
+  
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    // Carregar o arquivo JSON usando fetch
+    fetch('topics.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Erro ao carregar o arquivo JSON');
+            }
+            return response.json();
+        })
+        .then(jsonData => {
+            populateMenu(jsonData);
+        })
+        .catch(error => {
+            console.error('Erro:', error);
+        });
+});
+
+// Função para verificar se a propriedade 'show' é verdadeira
+function shouldShowPage(pageProperties) {
+    if (Array.isArray(pageProperties) && pageProperties.length > 0) {
+        return pageProperties.some(property => property.show === true);
+    }
+    return false; // Não mostrar se não houver propriedades ou se todas forem false
+}
+
+// Função para inserir itens no menu
+function populateMenu(jsonData) {
+    const sidebarNavElements = document.querySelectorAll('#sidebar-nav');
+
+    sidebarNavElements.forEach(navElement => {
+        jsonData.forEach(item => {
+            if (shouldShowPage(item.page_properties)) {  // Verifica se o item deve ser mostrado com base em page_properties
+                const listItem = document.createElement('li');
+                listItem.className = 'nav-item';
+
+                const linkItem = document.createElement('a');
+                linkItem.className = 'nav-link';
+                linkItem.href = item.url;
+                linkItem.textContent = item.title;
+
+                const dotDiv = document.createElement('div');
+                dotDiv.className = 'dot';
+
+                listItem.appendChild(dotDiv);
+                listItem.appendChild(linkItem);
+
+                navElement.appendChild(listItem);
+            }
+        });
+    });
+}
+  </script>
+
+</body>
+</html>
